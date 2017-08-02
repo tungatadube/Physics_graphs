@@ -6,12 +6,11 @@ def pie_chart(title):
     ''' The function plots pie charts using the given data'''
     
     #Place your pie chart labels here
-    labels = ['English', 'Ndebele', 'Biology', 'Art', 'Physics', 
-    'Shona',
+    labels = ['USA', 'UK', 'SOUTH AFRICA', 'SPAIN'
     ]
 
     #Place your values here
-    numbers = [8.3, 25, 20, 46.7]
+    numbers = [14, 10, 11, 5]
     num = len(numbers)
 
     #A list of colors to chose from
@@ -59,4 +58,4 @@ def pie_chart(title):
     
     plt.show()
 
-pie_chart('Number of Teachers')
+pie_chart('Passenger-Destination Chart')
