@@ -12,7 +12,7 @@ def radioactive_decay(title):
     plt.grid(color="blue", which='major', linewidth=0.25, ls='-')
     plt.grid(color="grey", which='minor', linewidth=0.25, ls='--')
     plt.legend(loc="upper center", frameon=True )
-    plt.ylabel('counts/hr')
+    plt.ylabel('No. of particles x 1000')
     plt.xlabel('Time/hrs')
     plt.show()
     
